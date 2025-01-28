@@ -60,13 +60,32 @@ class QdrantCollectionManager:
             self.client.upsert(
                 collection_name=self.collection_name,
                 wait=True,
-                points=points,
-                show_progress=True
+                points=points                
             )
             logging.info(f"Stored {len(points)} vectors.")     
        
         except Exception as e:
             logging.error(f"Storage failed: {str(e)}")
+            raise
+
+    def vector_search(self, query_embedding: np.ndarray, top_k: int = 5) -> List[dict]:
+        
+        try:
+            results = self.client.search(
+                collection_name=self.collection_name,
+                query_vector=query_embedding.tolist(),
+                limit=top_k
+            )
+            return [
+                {
+                    "score": result.score,
+                    "text": result.payload["text"],
+                    "metadata": result.payload["metadata"]
+                }
+                for result in results
+            ]
+        except Exception as e:
+            logging.error(f"Search failed: {str(e)}")
             raise
 
 
