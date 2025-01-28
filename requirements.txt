@@ -1,0 +1,9 @@
+langchain
+sentence-transformers
+streamlit
+pypdf
+qdrant-client==1.12.2
+langchain-qdrant
+langchain-community
+fastembed
+tqdm
