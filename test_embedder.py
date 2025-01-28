@@ -1,4 +1,4 @@
-from embedder import loader, splitter, generate_embeddings
+import embedder
 from qdrant_connection import QdrantCollectionManager
 import logging
 from dotenv import load_dotenv
@@ -12,19 +12,19 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def process_pipeline(pdf_path: str = "Dataset/sample"):
-    """End-to-end processing pipeline"""
+    
     try:
         # 1. Load documents
         logger.info("Loading documents")
-        documents = loader(pdf_path)
+        documents = embedder.loader(pdf_path)
         
         # 2. Split documents
         logger.info("Splitting documents")
-        chunks = splitter(documents)
+        chunks = embedder.splitter(documents)
         
         # 3. Generate embeddings
         logger.info("Generating embeddings")
-        embeddings = generate_embeddings(chunks)
+        embeddings = embedder.generate_embeddings(chunks)
         
         # 4. Store in Qdrant
         logger.info("Initializing vector store")
