@@ -53,16 +53,3 @@ def generate_embeddings(chunks: List[Document], batch_size: int = 100) -> List[T
     # Return tuples of (embedding, text, metadata)
     return list(zip(embeddings, texts, metadatas))
 
-files = loader("Dataset\sample")
-
-logging.info("Starting PDF loader")
-print(loader("Dataset\sample"))
-logging.info("PDF loader completed")
-
-logging.info("Starting PDF splitter")
-print(splitter(files))
-logging.info("PDF splitter completed")
-
-logging.info("Starting embedding generation")
-print(generate_embeddings(splitter(files)))
-logging.info("Embedding generation completed")
