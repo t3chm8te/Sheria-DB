@@ -1,0 +1,36 @@
+2025-02-27 14:14:48,026 - INFO - Fetching year links from: https://new.kenyalaw.org/gazettes/
+2025-02-27 14:14:49,216 - INFO - Found 3 year links (limited to first 3).
+2025-02-27 14:14:49,218 - INFO - Processing year: 2025
+2025-02-27 14:14:49,218 - INFO - Fetching gazette links from: https://new.kenyalaw.org/gazettes/2025
+2025-02-27 14:14:49,806 - INFO - Found 15 gazette links for https://new.kenyalaw.org/gazettes/2025.
+2025-02-27 14:14:49,807 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-21/36/eng@2025-02-21
+2025-02-27 14:14:50,461 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-21/36/eng@2025-02-21/source
+2025-02-27 14:14:52,953 - INFO - Successfully downloaded: Untitled_Volume_Unknown_Volume_Unknown_Date.pdf
+2025-02-27 14:14:53,954 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-14/31/eng@2025-02-14
+2025-02-27 14:14:54,591 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-14/31/eng@2025-02-14/source
+2025-02-27 14:14:59,609 - INFO - Successfully downloaded: Untitled_Volume_Unknown_Volume_Unknown_Date.pdf
+2025-02-27 14:15:00,614 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-12/29/eng@2025-02-12
+2025-02-27 14:15:01,141 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-12/29/eng@2025-02-12/source
+2025-02-27 14:15:08,405 - INFO - Successfully downloaded: Untitled_Volume_Unknown_Volume_Unknown_Date.pdf
+2025-02-27 14:15:09,409 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-26/26/eng@2025-02-07
+2025-02-27 14:15:10,002 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-26/26/eng@2025-02-07/source
+2025-02-27 14:15:13,240 - INFO - Successfully downloaded: Untitled_Volume_Unknown_Volume_Unknown_Date.pdf
+2025-02-27 14:15:14,244 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-07/25/eng@2025-02-07
+2025-02-27 14:15:14,932 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-07/25/eng@2025-02-07/source
+2025-02-27 14:15:17,113 - INFO - Successfully downloaded: Untitled_Volume_Unknown_Volume_Unknown_Date.pdf
+2025-02-27 14:15:18,115 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-01-31/20/eng@2025-01-31
+2025-02-27 14:15:18,773 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-01-31/20/eng@2025-01-31/source
+2025-02-27 14:18:30,044 - INFO - Fetching year links from: https://new.kenyalaw.org/gazettes/
+2025-02-27 14:18:31,184 - INFO - Found 3 year links (limited to first 3).
+2025-02-27 14:18:31,185 - INFO - Processing year: 2025
+2025-02-27 14:18:31,186 - INFO - Fetching gazette links from: https://new.kenyalaw.org/gazettes/2025
+2025-02-27 14:18:31,762 - INFO - Found 15 gazette links for https://new.kenyalaw.org/gazettes/2025.
+2025-02-27 14:18:31,763 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-21/36/eng@2025-02-21
+2025-02-27 14:18:32,420 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-21/36/eng@2025-02-21/source
+2025-02-27 14:20:52,387 - INFO - Fetching year links from: https://new.kenyalaw.org/gazettes/
+2025-02-27 14:20:53,609 - INFO - Found 3 year links (limited to first 3).
+2025-02-27 14:20:53,611 - INFO - Processing year: 2025
+2025-02-27 14:20:53,612 - INFO - Fetching gazette links from: https://new.kenyalaw.org/gazettes/2025
+2025-02-27 14:20:54,161 - INFO - Found 15 gazette links for https://new.kenyalaw.org/gazettes/2025.
+2025-02-27 14:20:54,162 - INFO - Fetching download link from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-21/36/eng@2025-02-21
+2025-02-27 14:20:54,823 - INFO - Downloading PDF from: https://new.kenyalaw.org/akn/ke/officialGazette/2025-02-21/36/eng@2025-02-21/source

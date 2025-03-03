@@ -1,0 +1,123 @@
+.search-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.search-form {
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px #ffff;
+}
+
+.search-button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: var(--primary-color);
+}
+
+.search-button:disabled {
+    background-color: var(--primary-color);
+    cursor: not-allowed;
+}
+
+.results-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.result-card {
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-2px);
+}
+
+.result-score {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.result-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.result-metadata {
+    font-size: 0.875rem;
+    color: #6b7280;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 0.75rem;
+}
+
+.error-message {
+    padding: 1rem;
+    background-color: #fee2e2;
+    border: 1px solid #fecaca;
+    border-radius: 6px;
+    color: #dc2626;
+    margin-bottom: 1rem;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Add these to your existing CSS */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.result-card {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-spinner::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid #e2e8f0;
+    border-top-color: #3b82f6;
+    animation: spin 1s linear infinite;
+}

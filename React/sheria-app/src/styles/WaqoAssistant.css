@@ -1,0 +1,116 @@
+/* WaqoAssistant.css */
+.waqo-container {
+    padding: 40px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center; /* Center horizontally */
+    background-color: var(--background-color); /* Example background color */
+    font-style: "Inter";
+}
+
+.waqo-content {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 800px; /* Adjust max-width as needed */
+}
+
+.waqo-content h1 {
+    font-size: 24pt;
+    margin-bottom: 15px;
+}
+
+.waqo-content p {
+    font-size: 12pt;
+    line-height: 1.6;
+}
+
+.waqo-demo {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 30px;
+    text-align: center; /* Center the content */
+}
+
+.waqo-demo .my-button{
+    margin-right: 450px;
+}
+
+.demo-question {
+    margin-right: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.demo-answer {
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.waqo-prompt {
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center; /* Center the content */
+    font-family: "Inter";
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.waqo-prompt h3 {
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+.waqo-prompt p {
+    font-size: 12pt;
+}
+
+.prompt-buttons {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin-bottom: 20px;
+}
+
+.my-button {
+    background-color: var(--primary-color); /* Example button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; /* Add some margin around buttons */
+}
+
+
+
+.text-input-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.text-input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.2);
+}
+
+.text-input::placeholder {
+    color: #999;
+    font-style: italic;
+}

@@ -1,0 +1,22 @@
+h1{
+    color: var(--footer-color);
+    font-size: 48pt;
+    font-weight: bold;
+    font-family: "Inter";
+}
+
+p{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: "Inter";
+}
+
+.hero-container{
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.my-button{
+    margin: 10px; 
+}

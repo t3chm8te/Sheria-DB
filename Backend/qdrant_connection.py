@@ -11,7 +11,7 @@ load_dotenv('.env')
 logging.basicConfig(level=logging.INFO)
 
 class QdrantCollectionManager:
-    def __init__(self, collection_name: str = "test", vector_size: int = 384, distance_metric: str = "Cosine", https=False):
+    def __init__(self, collection_name: str, vector_size: int = 384, distance_metric: str = "Cosine", https=False):
         
         self.collection_name = collection_name
         self.vector_size = vector_size
