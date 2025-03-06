@@ -121,8 +121,7 @@ class GazetteCrawler:
         year_links = self.get_available_years()
 
         for year_link in year_links:
-            # Extract the year from the URL if needed
-            year = year_link.split('/')[-1]  # Assuming the year is the last part of the URL
+            year = year_link.split('/')[-1]  
             gazette_links = self.get_available_gazettes(year_link)
             logging.info(f"Finished crawling {year_link}, found {len(gazette_links)} gazettes.")
             self.download_pdfs(year, gazette_links)
